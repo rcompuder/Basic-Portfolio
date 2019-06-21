@@ -1,0 +1,45 @@
+body {
+    background-color:grey;
+}
+h1 {
+    float: center;
+    color: #efeee7
+    background-color: white;
+}
+
+#main-bio { 
+    float:left;
+    width: 960 em;
+    padding: 1em;
+    boarder: 5 em;
+    margin: 0;
+    color: #4aaaa5;
+    background-color:white;
+
+}
+
+header{
+    float:left;
+    width: 100 em;
+    padding: 1em;
+    boarder: 5 em;
+    margin: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.container{
+    width: 960 px;
+    margin: 0 auto;
+}
+
+
+#contact-info{
+    float:left;
+    top: 0;
+    padding-left: 2em;
+    padding right: 2em;
+    width: 11%
+}
+#portfolio{
+    float:right
+}
