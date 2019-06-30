@@ -2,8 +2,8 @@ body {
     background-color: #dddddd;
 }
 h1 {
-    float: center;
-    color: black;
+    float: left;
+    color: white;
     background-color: #4aaaa5;
 }
 
@@ -24,7 +24,7 @@ header{
     boarder: 5 em;
     margin: 0;
     background-color: #4aaaa5;
-    color: #ffffff;
+    color: white;
 }
 .container{
     clear: both;
@@ -37,20 +37,22 @@ header{
 
 }
 
-
 #contact-info{
-    float:right;
-    padding: 2em;
     width: 10%;
+    float:right;
+    padding: 1em;
+
 }
 #portfolio{
     clear: both;
     float:right;
     width: 10%
 }
-contact-info, #portfolio{
+
+#contact-info, #portfolio, #about-me{
     clear: both;
     float: right;
-    padding: 2em;
+    padding: 1em;
+    position: relative;
 
-}s
+}
